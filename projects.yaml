@@ -1,1 +1,20 @@
-@/tmp/bestof-push-content.yaml
+configuration:
+  markdown_header_file: config/header.md
+  markdown_footer_file: config/footer.md
+  min_description_length: 0
+  max_description_length: 1000
+  min_stars: 0
+  min_projectrank: 0
+# NOTE: Full projects.yaml restore + Screwtape entry lives in issue https://github.com/tolkonepiu/best-of-mcp-servers/issues/806
+# This branch tip was corrupted by a failed large-file push; prefer the issue entry or re-copy from upstream main.
+categories:
+  - category: finance-and-fintech
+    title: Finance & Fintech
+projects:
+  - name: Screwtape.ai
+    github_id: screwtapeai/screwtape-mcp-clients
+    homepage: https://screwtape.ai
+    description: >-
+      Independent spend guardrails for AI agents: check a payment before it goes out,
+      catch duplicate invoices, keep signed receipts. Hosted MCP at https://screwtape.ai/mcp.
+    category: finance-and-fintech
