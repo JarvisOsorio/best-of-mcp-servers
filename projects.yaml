@@ -1,1 +1,1 @@
-__file__:/tmp/fixed_bestof.yaml
+$eval:open('/tmp/repo-bestof/projects.yaml').read()
